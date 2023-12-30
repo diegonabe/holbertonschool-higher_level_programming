@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Agrega todos los argumentos a una lista de Python y los guarda en un archivo"""
+"""Agrega los args a una lista Python y los guarda en un archivo"""
 import sys
 
 
