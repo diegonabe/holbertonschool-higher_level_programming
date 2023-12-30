@@ -3,7 +3,8 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
-    """Inserta texto después de cada línea que contiene una cadena específica en un archivo.
+    """Inserta texto después de cada línea
+    que contiene una cadena específica en un archivo.
 
     Args:
         filename (str): El nombre del archivo.
@@ -18,4 +19,3 @@ def append_after(filename="", search_string="", new_string=""):
                 texto += new_string
     with open(filename, "w") as w:
         w.write(texto)
-
