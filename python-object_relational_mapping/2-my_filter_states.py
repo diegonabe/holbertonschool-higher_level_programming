@@ -18,4 +18,3 @@ if __name__ == "__main__":
                 WHERE name LIKE BINARY '{}'
                 ORDER BY states.id ASC""".format(sys.argv[4]).strip("'"))
     [print(state) for state in c.fetchall()]
-
