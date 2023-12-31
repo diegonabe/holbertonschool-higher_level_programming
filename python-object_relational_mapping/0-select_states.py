@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 #Enlista los "Estados"de la base de datos
+## Uso: ./0-select_states.py <mysql username> \
+#                             <mysql password> \
+#                             <database name>
 import sys
 import MySQLdb
 
